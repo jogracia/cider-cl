@@ -1,0 +1,25 @@
+CIDER-CL 1.2 (Sep 15, 2013)
+------------------------
+* IMPROVED: added documentation, logs, and examples
+
+
+CIDER-CL 1.1 (Sep 09, 2013)
+------------------------
+Version submitted to OAEI'13 campaign for evaluation
+
+* FIXED: compatibility issues with Seals platform fixed
+
+* TRAINING SET: 
+Monolingual alignments: Benchmark track OAEI'11 but excluding cases 202 and 248-266 (which present a total absence
+or randomization of labels and comments).
+Cross-lingual alignments: Multifarm track OAEI'13; languages: en, es, nl, de; ontologies: cmt, conference, confOf, sigkdd (all comparisons among them but excluding comparisons between the same ontologies)
+
+
+CIDER-CL 1.0 (Aug 26, 2013)
+------------------------
+INITIAL VERSION. This is a complete reimplementation of CIDER that adds cross-lingual capabilities. 
+This is based on the SoftTFIDF measure to compute monolingual similarities and Explicit Semantic Analysis to compute crosslingual similarities. 
+Similarities are computed at different levels of the ontologial context (labels, super/subterms, etc.) and combined using artificial neural networks. 
+
+
+

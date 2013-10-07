@@ -1,0 +1,66 @@
+# DEFAULT CACHE REGION   
+jcs.default=
+jcs.default.cacheattributes=org.apache.jcs.engine.CompositeCacheAttributes
+jcs.default.cacheattributes.MaxObjects=1000
+jcs.default.cacheattributes.MemoryCacheName=org.apache.jcs.engine.memory.lru.LRUMemoryCache
+#jcs.default.cacheattributes.UseMemoryShrinker=true ------MODIF by JORGE (12/02/08)
+jcs.default.cacheattributes.UseMemoryShrinker=false
+#jcs.default.cacheattributes.MaxMemoryIdleTimeSeconds=20  ------MODIF by JORGE (12/02/08)
+#jcs.default.cacheattributes.ShrinkerIntervalSeconds=20  ------MODIF by JORGE (12/02/08)
+jcs.default.cacheattributes.MaxMemoryIdleTimeSeconds=3600
+jcs.default.cacheattributes.ShrinkerIntervalSeconds=60
+jcs.default.elementattributes=org.apache.jcs.engine.ElementAttributes
+jcs.default.elementattributes.IsEternal=false
+#jcs.default.elementattributes.MaxLifeSeconds=20 ------MODIF by JORGE (12/02/08)
+jcs.default.elementattributes.MaxLifeSeconds=21600 
+#jcs.default.elementattributes.IdleTime=20 ------MODIF by JORGE (12/02/08)
+jcs.default.elementattributes.IdleTime=1800
+jcs.default.elementattributes.IsSpool=true
+jcs.default.elementattributes.IsRemote=true
+jcs.default.elementattributes.IsLateral=true
+
+# PRE-DEFINED CACHE REGIONS   
+jcs.region.senseURICache=
+jcs.region.senseURICache.cacheattributes=org.apache.jcs.engine.CompositeCacheAttributes
+jcs.region.senseURICache.cacheattributes.MaxObjects=1000
+jcs.region.senseURICache.cacheattributes.MemoryCacheName=org.apache.jcs.engine.memory.lru.LRUMemoryCache
+jcs.region.senseURICache.cacheattributes.UseMemoryShrinker=true
+jcs.region.senseURICache.cacheattributes.MaxMemoryIdleTimeSeconds=3600
+jcs.region.senseURICache.cacheattributes.ShrinkerIntervalSeconds=60
+jcs.region.senseURICache.cacheattributes.MaxSpoolPerRun=500
+jcs.region.senseURICache.elementattributes=org.apache.jcs.engine.ElementAttributes
+jcs.region.senseURICache.elementattributes.IsEternal=false
+
+jcs.region.blacklistCache=
+jcs.region.blacklistCache.cacheattributes=org.apache.jcs.engine.CompositeCacheAttributes
+jcs.region.blacklistCache.cacheattributes.MaxObjects=1000
+jcs.region.blacklistCache.cacheattributes.MemoryCacheName=org.apache.jcs.engine.memory.lru.LRUMemoryCache
+jcs.region.blacklistCache.cacheattributes.UseMemoryShrinker=true
+jcs.region.blacklistCache.cacheattributes.MaxMemoryIdleTimeSeconds=3600
+jcs.region.blacklistCache.cacheattributes.ShrinkerIntervalSeconds=60
+jcs.region.blacklistCache.cacheattributes.MaxSpoolPerRun=500
+jcs.region.blacklistCache.elementattributes=org.apache.jcs.engine.ElementAttributes
+jcs.region.blacklistCache.elementattributes.IsEternal=false
+
+jcs.region.ontologyCache=
+jcs.region.ontologyCache.cacheattributes=org.apache.jcs.engine.CompositeCacheAttributes
+jcs.region.ontologyCache.cacheattributes.MaxObjects=1000
+jcs.region.ontologyCache.cacheattributes.MemoryCacheName=org.apache.jcs.engine.memory.lru.LRUMemoryCache
+jcs.region.ontologyCache.cacheattributes.UseMemoryShrinker=true
+jcs.region.ontologyCache.cacheattributes.MaxMemoryIdleTimeSeconds=3600
+jcs.region.ontologyCache.cacheattributes.ShrinkerIntervalSeconds=60
+jcs.region.ontologyCache.cacheattributes.MaxSpoolPerRun=500
+jcs.region.ontologyCache.elementattributes=org.apache.jcs.engine.ElementAttributes
+jcs.region.ontologyCache.elementattributes.IsEternal=false
+
+
+# AVAILABLE AUXILIARY CACHES   
+#jcs.auxiliary.DC=org.apache.jcs.auxiliary.disk.indexed.IndexedDiskCacheFactory
+#jcs.auxiliary.DC.attributes=org.apache.jcs.auxiliary.disk.indexed.IndexedDiskCacheAttributes
+#jcs.auxiliary.DC.attributes.DiskPath=c:/cache/
+#jcs.auxiliary.DC.attributes.MaxPurgatorySize=10000
+#jcs.auxiliary.DC.attributes.MaxKeySize=10000
+#jcs.auxiliary.DC.attributes.MaxRecycleBinSize=5000
+#jcs.auxiliary.DC.attributes.OptimizeAtRemoveCount=300000
+#jcs.auxiliary.DC.attributes.OptimizeOnShutdown=true
+

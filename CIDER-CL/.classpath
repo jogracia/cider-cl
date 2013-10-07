@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry including="log4j.properties" kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/commons-modeler-2.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/jcs-1.2.7.9.jar"/>
+	<classpathentry kind="lib" path="lib/pellet/pellet-jena.jar"/>
+	<classpathentry kind="lib" path="lib/pellet/pellet-core.jar"/>
+	<classpathentry kind="lib" path="lib/jena/jena-core-2.10.1.jar"/>
+	<classpathentry kind="lib" path="lib/jena/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="lib/jena/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/jena/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="lib/jena/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="lib/jena/jena-tdb-0.10.1.jar"/>
+	<classpathentry kind="lib" path="lib/jena/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/jena/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/jena/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/jena/jena-arq-2.10.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/concurrent.jar"/>
+	<classpathentry kind="lib" path="lib/align-4.5_new/lib/align.jar"/>
+	<classpathentry kind="lib" path="lib/align-4.5_new/lib/ontowrap.jar"/>
+	<classpathentry kind="lib" path="lib/secondstring/secondstring-20120620.jar"/>
+	<classpathentry kind="lib" path="lib/jena/jena-iri-0.9.6.jar"/>
+	<classpathentry kind="lib" path="lib/Weka-3.7.9/weka.jar"/>
+	<classpathentry kind="lib" path="lib/jdom.jar"/>
+	<classpathentry kind="lib" path="lib/jena/jcl-over-slf4j-1.6.4.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-simple-1.7.5.jar"/>
+	<classpathentry kind="lib" path="lib/WSD.jar"/>
+	<classpathentry kind="lib" path="lib/align-4.5_new/lib/procalign.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,9 @@
+es.upm.oeg.cidercl.aligner
+es.upm.oeg.cidercl.classifiers.ann
+es.upm.oeg.cidercl.classifiers.features
+es.upm.oeg.cidercl.classifiers.refalignment
+es.upm.oeg.cidercl.extraction
+es.upm.oeg.cidercl.util
+es.upm.oeg.semanticmeasures
+es.upm.oeg.semanticmeasures.impl.crosslingual
+es.upm.oeg.semanticmeasures.impl.monolingual
